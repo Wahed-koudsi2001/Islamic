@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>الموعظة</title>
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <div class="container">
+            <div class="log">آلُِموُعٍظًة</div>
+            <ul>
+                <li data-filter="main" class="active">الصفحة الرئيسية</li>
+                <li data-filter="hadith">أحاديث</li>
+                <li data-filter="lecture">المحاضرات</li>
+                <li data-filter="Quran">القرأن الكريم</li>
+                <li data-filter="pray">أوقات الصلاة</li>
+                <li data-filter="footer">تواصل معنا</li>
+            </ul>
+            <div class="bars">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Start Header -->
+
+    <!-- Start Main -->
+    <section class="main">
+        <div class="container">
+            <div class="title">
+                <h2>مرحباً بك في <br> موقع الموعظة الأسلامي</h2>
+                <button class="btn">إبدا التصفح <i class="fas fa-caret-left"></i> </button>
+            </div>
+        </div>
+    </section>
+    <!-- End Main -->
+
+    <!-- Start Hadith -->
+    <section class="hadith">
+        <h3 class="main-title">الأحاديث الشريفة</h3>
+        <div class="container">
+            <div class="hadith-container">
+            </div>
+            <div class="buttons">
+                <div class="prev">السابق</div>
+                <div class="number">1 / 300</div>
+                <div class="next">التالى</div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hadith -->
+
+    <!-- Start Lecture -->
+    <section class="lecture">
+        <h3 class="main-title">المحاضرات</h3>
+        <div class="container">
+            <div class="lecture-container">
+                <div class="right">
+                    <div class="lec">
+                        <div class="lec-text">
+                            <h4>لماذا نزل القرآن عربياً</h4>
+                            <p>محاضرة رائعة من تقديم فضيلة الشيخ الشعراوي</p>
+                        </div>
+                        <img src="img/sha.jpg" alt="Img">
+                    </div>
+                    <div class="lec">
+                        <div class="lec-text">
+                            <h4>لماذا نزل القرآن عربياً</h4>
+                            <p>محاضرة رائعة من تقديم فضيلة الشيخ الشعراوي</p>
+                        </div>
+                        <img src="img/sha.jpg" alt="Img">
+                    </div>
+                    <div class="lec">
+                        <div class="lec-text">
+                            <h4>لماذا نزل القرآن عربياً</h4>
+                            <p>محاضرة رائعة من تقديم فضيلة الشيخ الشعراوي</p>
+                        </div>
+                        <img src="img/sha.jpg" alt="Img">
+                    </div>
+                    <div class="lec">
+                        <div class="lec-text">
+                            <h4>لماذا نزل القرآن عربياً</h4>
+                            <p>محاضرة رائعة من تقديم فضيلة الشيخ الشعراوي</p>
+                        </div>
+                        <img src="img/sha.jpg" alt="Img">
+                    </div>
+                </div>
+                <div class="left">
+                    <iframe src="https://www.youtube.com/embed/3pjUNC11DRM" frameborder="0"></iframe>
+                    <p>تفسير الشعراوي - تفسير"إنا أنزلناه قرآنا عربيا لعلكم تعقلون</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Lecture -->
+
+    <!-- Start Quran -->
+    <section class="Quran">
+        <h3 class="main-title">القرآن الكريم</h3>
+        <div class="container">
+            <div class="surahsContainer"></div>
+        </div>
+    </section>
+    <!-- End Quran -->
+
+    <!-- Start PopUp -->
+    <div class="surah-popup">
+        <div class="close-popup">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="ayat"></div>
+    </div>
+    <!-- Start PopUp -->
+
+    <!-- Start Pray Time -->
+    <section class="pray">
+        <h3 class="main-title">أوقات الصلاة</h3>
+        <div class="container">
+            <div class="cards"></div>
+    </section>
+    <!-- End Pray Time -->
+
+    <!-- Start Footer -->
+    <section class="footer">
+        <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 600" xmlns="http://www.w3.org/2000/svg"
+            class="transition duration-300 ease-in-out delay-150">
+            <style>
+                .path-0 {
+                    animation: pathAnim-0 4s;
+                    animation-timing-function: linear;
+                    animation-iteration-count: infinite;
+                }
+
+                @keyframes pathAnim-0 {
+                    0% {
+                        d: path("M 0,600 C 0,600 0,200 0,200 C 155.06666666666666,243.73333333333332 310.1333333333333,287.46666666666664 492,272 C 673.8666666666667,256.53333333333336 882.5333333333333,181.86666666666667 1045,160 C 1207.4666666666667,138.13333333333333 1323.7333333333333,169.06666666666666 1440,200 C 1440,200 1440,600 1440,600 Z");
+                    }
+
+                    25% {
+                        d: path("M 0,600 C 0,600 0,200 0,200 C 197.46666666666664,190.93333333333334 394.9333333333333,181.86666666666665 560,181 C 725.0666666666667,180.13333333333335 857.7333333333333,187.46666666666664 999,192 C 1140.2666666666667,196.53333333333336 1290.1333333333332,198.26666666666668 1440,200 C 1440,200 1440,600 1440,600 Z");
+                    }
+
+                    50% {
+                        d: path("M 0,600 C 0,600 0,200 0,200 C 186.8,224.53333333333333 373.6,249.06666666666666 541,251 C 708.4,252.93333333333334 856.4000000000001,232.26666666666665 1003,220 C 1149.6,207.73333333333335 1294.8,203.86666666666667 1440,200 C 1440,200 1440,600 1440,600 Z");
+                    }
+
+                    75% {
+                        d: path("M 0,600 C 0,600 0,200 0,200 C 196.13333333333333,185.46666666666667 392.26666666666665,170.93333333333334 558,178 C 723.7333333333333,185.06666666666666 859.0666666666666,213.73333333333332 1001,221 C 1142.9333333333334,228.26666666666668 1291.4666666666667,214.13333333333333 1440,200 C 1440,200 1440,600 1440,600 Z");
+                    }
+
+                    100% {
+                        d: path("M 0,600 C 0,600 0,200 0,200 C 155.06666666666666,243.73333333333332 310.1333333333333,287.46666666666664 492,272 C 673.8666666666667,256.53333333333336 882.5333333333333,181.86666666666667 1045,160 C 1207.4666666666667,138.13333333333333 1323.7333333333333,169.06666666666666 1440,200 C 1440,200 1440,600 1440,600 Z");
+                    }
+                }
+            </style>
+            <defs>
+                <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+                    <stop offset="5%" stop-color="#00d08488"></stop>
+                    <stop offset="95%" stop-color="#32ded488"></stop>
+                </linearGradient>
+            </defs>
+            <path
+                d="M 0,600 C 0,600 0,200 0,200 C 155.06666666666666,243.73333333333332 310.1333333333333,287.46666666666664 492,272 C 673.8666666666667,256.53333333333336 882.5333333333333,181.86666666666667 1045,160 C 1207.4666666666667,138.13333333333333 1323.7333333333333,169.06666666666666 1440,200 C 1440,200 1440,600 1440,600 Z"
+                stroke="none" stroke-width="0" fill="url(#gradient)"
+                class="transition-all duration-300 ease-in-out delay-150 path-0"></path>
+            <style>
+                .path-1 {
+                    animation: pathAnim-1 4s;
+                    animation-timing-function: linear;
+                    animation-iteration-count: infinite;
+                }
+
+                @keyframes pathAnim-1 {
+                    0% {
+                        d: path("M 0,600 C 0,600 0,400 0,400 C 210.40000000000003,356.79999999999995 420.80000000000007,313.59999999999997 558,329 C 695.1999999999999,344.40000000000003 759.2,418.4 894,440 C 1028.8,461.6 1234.4,430.8 1440,400 C 1440,400 1440,600 1440,600 Z");
+                    }
+
+                    25% {
+                        d: path("M 0,600 C 0,600 0,400 0,400 C 121.86666666666667,417.4666666666667 243.73333333333335,434.93333333333334 408,422 C 572.2666666666667,409.06666666666666 778.9333333333334,365.7333333333333 958,357 C 1137.0666666666666,348.2666666666667 1288.5333333333333,374.1333333333333 1440,400 C 1440,400 1440,600 1440,600 Z");
+                    }
+
+                    50% {
+                        d: path("M 0,600 C 0,600 0,400 0,400 C 110.13333333333333,378.79999999999995 220.26666666666665,357.59999999999997 396,343 C 571.7333333333333,328.40000000000003 813.0666666666668,320.40000000000003 998,331 C 1182.9333333333332,341.59999999999997 1311.4666666666667,370.79999999999995 1440,400 C 1440,400 1440,600 1440,600 Z");
+                    }
+
+                    75% {
+                        d: path("M 0,600 C 0,600 0,400 0,400 C 202.40000000000003,410.1333333333333 404.80000000000007,420.2666666666667 540,412 C 675.1999999999999,403.7333333333333 743.1999999999999,377.06666666666666 882,372 C 1020.8000000000001,366.93333333333334 1230.4,383.4666666666667 1440,400 C 1440,400 1440,600 1440,600 Z");
+                    }
+
+                    100% {
+                        d: path("M 0,600 C 0,600 0,400 0,400 C 210.40000000000003,356.79999999999995 420.80000000000007,313.59999999999997 558,329 C 695.1999999999999,344.40000000000003 759.2,418.4 894,440 C 1028.8,461.6 1234.4,430.8 1440,400 C 1440,400 1440,600 1440,600 Z");
+                    }
+                }
+            </style>
+            <defs>
+                <linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%">
+                    <stop offset="5%" stop-color="#00d084ff"></stop>
+                    <stop offset="95%" stop-color="#32ded4ff"></stop>
+                </linearGradient>
+            </defs>
+            <path
+                d="M 0,600 C 0,600 0,400 0,400 C 210.40000000000003,356.79999999999995 420.80000000000007,313.59999999999997 558,329 C 695.1999999999999,344.40000000000003 759.2,418.4 894,440 C 1028.8,461.6 1234.4,430.8 1440,400 C 1440,400 1440,600 1440,600 Z"
+                stroke="none" stroke-width="0" fill="url(#gradient)"
+                class="transition-all duration-300 ease-in-out delay-150 path-1"></path>
+        </svg>
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-telegram-plane"></i></a>
+        </div>
+    </section>
+    <!-- End Footer -->
+
+    <!-- Start Scroll Btn -->
+    <div class="scrollBtn">
+        <i class="fas fa-angle-double-up"></i>
+    </div>
+    <!-- Start Scroll Btn -->
+
+    <script src="JS/main.js"></script>
+</body>
+
+</html>
